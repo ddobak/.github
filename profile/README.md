@@ -1,7 +1,7 @@
 # 또박 (DDOBAK) - 계약서 분석 서비스
 
 > 계약서 속 함정, AI가 또박또박 찾아드립니다.
-<img width="1920" height="1080" alt="Slide 16_9 - 1" src="https://github.com/user-attachments/assets/1d78e2fd-ef56-4cff-811f-8cd946ac0516" />
+<img width="1920" height="1080" alt="Slide 16_9 - 1" src="https://github.com/user-attachments/assets/c579d87b-7d47-4f47-b65f-3ef1715968a0" />
 
 ---
 
