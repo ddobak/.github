@@ -25,7 +25,7 @@
 - **WKWebView**: 분석 결과 웹 기반 렌더링
 - **Keychain**: JWT 토큰 안전 저장
 
-### ☁️ 백엔드 & 인프라
+### ☁️ Server & Infra
 - **Spring Boot**: API 서버 및 비즈니스 로직 처리
 - **AWS EC2**: 서버 배포 및 운영
 - **AWS API Gateway**: API 요청 라우팅, 보안
@@ -45,14 +45,14 @@
 
 ---
 
-## 🔐 보안 설계
+## 🔐 Security
 - JWT 기반 OAuth 인증 및 Keychain 보관
 - API Gateway로 서버 IP 직접 노출 차단
 - 사용자 개인정보는 분석 후 24시간 내 S3에서 자동 삭제
 - Apple Keychain으로 JWT 토큰 안전 저장
 ---
 
-## ⚡️ 서비스 워크플로우
+## ⚡️ Service Workflow
 1️⃣  사용자 계약서 이미지 업로드  
 2️⃣  앱 내 PencilKit 드로잉으로 민감정보 마스킹  
 3️⃣  서버에서 OCR → RAG 기반 AI 분석 → 법령 근거 기반 독소조항 식별  
