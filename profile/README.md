@@ -17,46 +17,10 @@
 
 ---
 
-## 🛠 주요 기술 스택
-
-### 📱 iOS
-- **SwiftUI**: 전체 사용자 인터페이스 구성
-- **PencilKit**: 사용자 손가락 및 Apple Pencil 기반 드로잉 마스킹 기능
-- **WKWebView**: 분석 결과 웹 기반 렌더링
-- **Keychain**: JWT 토큰 안전 저장
-
-### ☁️ Server & Infra
-- **Spring Boot**: API 서버 및 비즈니스 로직 처리
-- **AWS EC2**: 서버 배포 및 운영
-- **AWS API Gateway**: API 요청 라우팅, 보안
-- **AWS RDS (PostgreSQL)**: 사용자 및 분석 데이터 저장
-- **AWS S3**: 계약서 이미지 및 데이터 파일 저장
-- **AWS Lambda**: OCR, AI 분석, 결과 저장 등 서버리스 처리
-- **AWS SQS**: 비동기 분석 요청 큐
-- **AWS Bedrock + Claude 3.5 Sonnet**: 계약서 분석 생성형 AI
-- **AWS OpenSearch**: 법령 데이터 RAG 검색
-- **Terraform**: 인프라 코드 관리, 자동화
-
-## 🧠 AI & OCR
-- **Upstage OCR API**: 한국어 문서에 최적화된 OCR
-- **Claude 3.5 Sonnet**: 긴 문서 분석 및 자연어 추론
-- **Titan Text Embeddings**: 법령과 계약 조항의 의미 기반 유사도 검색
-- **법제처 OPEN API**: 최신 법령, 판례 데이터 연계
-
----
-
-## 🔐 Security
-- JWT 기반 OAuth 인증 및 Keychain 보관
-- API Gateway로 서버 IP 직접 노출 차단
-- 사용자 개인정보는 분석 후 24시간 내 S3에서 자동 삭제
-- Apple Keychain으로 JWT 토큰 안전 저장
----
-
 ## 📈 서비스 기대 효과
 - 법률 리터러시 부족으로 인한 개인 피해 예방
 - 누구나 쉽게 접근할 수 있는 모바일 서비스
 - 법률 정보에 대한 정보 격차 해소
-- 기존 B2B 중심 분석 서비스를 B2C 시장으로 확장
 
 ---
 
